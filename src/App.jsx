@@ -10,7 +10,7 @@ import {
 
 function App() {
   return (
-    <>
+    <div className='mx-72'>
       <Navbar />
       <Hero />
       <Campaigns />
@@ -18,7 +18,7 @@ function App() {
       <Cards />
       <CTA />
       <Footer />
-    </>
+    </div>
   )
 }
 
