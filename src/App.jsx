@@ -10,7 +10,7 @@ import {
 
 function App() {
   return (
-    <div className='mx-72'>
+    <div className='xl:px-20 md:px-4'>
       <Navbar />
       <Hero />
       <Campaigns />

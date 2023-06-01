@@ -1,6 +1,6 @@
 const Campaigns = () => {
   return (
-    <div>Campaigns</div>
+    <div className="mt-[500px]">Campaigns</div>
   )
 }
 
