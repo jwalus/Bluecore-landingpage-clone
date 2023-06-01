@@ -1,6 +1,10 @@
+import { headerlogo } from '../assets';
+
 const Navbar = () => {
   return (
-    <div>Navbar</div>
+    <div>
+      <img src={headerlogo} alt="headerlogo" />
+    </div>
   )
 }
 
