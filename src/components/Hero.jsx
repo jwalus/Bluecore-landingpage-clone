@@ -24,7 +24,7 @@ const Hero = () => {
         <div className='xl:mx-20 bg-yellow-gradient h-[2px]'></div>
         <div className='mt-16 flex justify-center'>
           <h1 className='text-[30.5px] leading-[40px]'>
-            The worlds leading retailers trust Bluecore to turn data into <span className='text-dblue font-semibold'>revenu-</span><br />
+            The worlds leading retailers trust Bluecore to turn data into <span className='text-dblue font-semibold'>revenue-</span><br />
             <span className='text-dblue font-semibold flex justify-center'>generating campaigns — in minutes.</span>
           </h1>
         </div>
