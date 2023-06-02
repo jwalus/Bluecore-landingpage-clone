@@ -1,16 +1,14 @@
 import { stat1, stat2, stat3, stat4 } from '../assets';
+import CampaignSlider from './CampaignSlider';
 
 const Campaigns = () => {
   return (
-    <div className="w-full bg-lblue mt-20">
+    <div className="w-full h-[70rem] bg-lblue mt-20">
       <div className="px-[375px]">
         <h1 className="text-[40px] pt-20 text-center">
-          Campaigns fueled by the 
-          <span className="text-dblue font-semibold">
-            most powerful dataset in<br /> retail.
-          </span>
+          Campaigns fueled by the <span className="text-dblue font-semibold">most powerful dataset in<br /> retail.</span>
           </h1>
-        {/*  */}
+        {/* blue box component */}
         <div className="bg-dblue w-full rounded-2xl flex justify-between xl:flex-row sm:flex-col py-4 mt-20">
           {/* #1 */}
           <div className="xl:pl-12 relative flex">
@@ -53,7 +51,14 @@ const Campaigns = () => {
             </p>
           </div> 
         </div>
+        {/* end of blue box component */}
       </div>
+      <div>
+        <h1 className="text-[40px] pt-20 text-center">How Bluecore drives billions in revenue for retailers — <br />
+          <span className="text-dblue font-semibold">with faster, easier personalization.</span>
+        </h1>
+      </div>
+      <CampaignSlider />
     </div>
   )
 }

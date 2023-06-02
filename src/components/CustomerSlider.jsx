@@ -1,6 +1,6 @@
 const CustomerSlider = () => {
   return (
-    <div>CustomerSlider</div>
+    <div className="pt-[50rem]">CustomerSlider</div>
   )
 }
 
