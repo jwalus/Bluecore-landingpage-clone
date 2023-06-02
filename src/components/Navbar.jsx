@@ -2,7 +2,7 @@ import { headerlogo } from '../assets';
 
 const Navbar = () => {
   return (
-<nav className='w-full flex justify-between items-center xl:mt-5 sm:mt-3'>
+<nav className='w-full flex justify-between items-center xl:mt-5 sm:mt-3 xxl:px-72 xl:px-20 md:px-4'>
   <img src={headerlogo} alt="headerlogo" className='xl:w-[164px] sm:w-[115px]' />
   <ul className='hidden xl:flex justify-between gap-14 text-lg text-[17px]'>
     <li className='hover:text-dblue hover:cursor-pointer hover:font-semibold'>Solutions</li>

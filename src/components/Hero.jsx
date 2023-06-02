@@ -2,10 +2,10 @@ import { herovideo } from '../assets';
 
 const Hero = () => {
   return (
-    <div>
+    <div className='mb-20 xxl:px-72 xl:px-20 md:px-4'>
       <div className='mt-20 flex xl:flex-row sm:flex-col'>
-        <div className='flex flex-col mx-12'>
-          <h1 className='text-[64px] mt-6 mb-6 leading-[65px]'>
+        <div className='flex flex-col mx-16'>
+          <h1 className='text-[60px] mt-6 mb-6 leading-[65px]'>
             Drive <br />
             <span className='text-dblue font-extrabold'>conversion 4x</span> <br />
             faster.
@@ -21,7 +21,7 @@ const Hero = () => {
         </div>
       </div>
       <div className='mt-24'>
-        <div className='xl:mx-12 bg-yellow-gradient h-[2px]'></div>
+        <div className='xl:mx-20 bg-yellow-gradient h-[2px]'></div>
         <div className='mt-16 flex justify-center'>
           <h1 className='text-[30.5px] leading-[40px]'>
             The worlds leading retailers trust Bluecore to turn data into <span className='text-dblue font-semibold'>revenu-</span><br />

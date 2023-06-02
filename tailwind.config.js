@@ -8,6 +8,8 @@ export default {
     extend: {
       colors: {
         'dblue': '#0A20A0',
+        'lblue': '#F0F8FF',
+        'golden': '#FBDD4D',
       },
     },
     screens: {
@@ -15,6 +17,7 @@ export default {
       md: "768px",
       lg: "976px",
       xl: "1440px",
+      xxl: "1700px",
     },
   },
   plugins: [],

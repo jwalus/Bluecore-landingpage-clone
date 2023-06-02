@@ -5,14 +5,16 @@ import {
   CustomerSlider,
   Cards,
   CTA,
-  Footer
+  Footer,
+  HeroImageSlider
 } from './components'
 
 function App() {
   return (
-    <div className='xl:px-20 md:px-4'>
+    <div className=''>
       <Navbar />
       <Hero />
+      <HeroImageSlider />
       <Campaigns />
       <CustomerSlider />
       <Cards />

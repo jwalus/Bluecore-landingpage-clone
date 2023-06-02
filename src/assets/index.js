@@ -5,6 +5,9 @@ import jcrewhero from './jcrewhero.png';
 import neimanhero from './neimanhero.png';
 import pacsunhero from './pacsunhero.png';
 import uahero from './uahero.png';
+import expresshero from './expresshero.png';
+import nobullhero from './nobullhero.png';
+import lenovohero from './lenovohero.png';
 import card1 from './card1.png';
 import card2 from './card2.png';
 import card3 from './card3.png';
@@ -26,6 +29,9 @@ export {
   neimanhero,
   pacsunhero,
   uahero,
+  expresshero,
+  lenovohero,
+  nobullhero,
   card1,
   card2,
   card3,
